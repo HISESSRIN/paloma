@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    background-image:url(bg.gif) ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    background-attachment: fixed;
+}
+.fecha{
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-radius: 5px; /* this doesn't work */
+  border-width: 4px;
+  border-style: solid;
+  padding: 5px;
+  background-image:url(J4o.gif) ;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+height: 200px;
+width: 100%;
+background-attachment: fixed;
+color:  rgb(112, 255, 84);
+font-size:29;
+}
+img{
+    align:center;
+    background-image:linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+    border-radius: 15%;
+border: 5px solid black;
+
+}
+table{
+    align:center;
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-radius: 5px; /* this doesn't work */
+  border-width: 4px;
+  border-style: solid;
+  background-image:url(J4o.gif) ;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  background-attachment: fixed;
+  color:  rgb(112, 255, 84);
+
+}
+p{
+    color:  rgb(112, 255, 84);
+    size: 60; 
+    align:center;
+}
+h1{
+    color: rgb(112, 255, 84);
+    size: 32; 
+    align:center;
+}
+a{
+ 
+    transition: transform 0.3s ease;
+}
+a:hover{
+    transform: scale(1.2);
+    }
